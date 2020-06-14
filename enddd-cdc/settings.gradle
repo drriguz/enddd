@@ -1,0 +1,4 @@
+rootProject.name = 'enddd-cdc'
+
+include "cdc-service"
+
