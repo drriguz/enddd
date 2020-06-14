@@ -1,11 +1,13 @@
-
 subprojects {
     apply plugin: 'java'
 
     group 'com.riguz.enddd'
     version '1.0-SNAPSHOT'
     repositories {
-        mavenCentral()
+        mavenLocal()
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter/' }
     }
 
     dependencies {

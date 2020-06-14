@@ -1,0 +1,9 @@
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: none
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/eventstore
+        username: tiger
+        password: MRSkmXE2RINm

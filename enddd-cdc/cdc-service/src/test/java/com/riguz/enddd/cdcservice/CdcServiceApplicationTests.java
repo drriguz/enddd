@@ -1,0 +1,13 @@
+package com.riguz.enddd.cdcservice;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CdcServiceApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
